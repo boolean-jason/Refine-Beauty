@@ -69,10 +69,17 @@
 
                 <div class="hero-media" aria-label="Interieur foto">
                     <figure class="photo">
-                        <img src="C:\Users\jason\Desktop\WebDev\refine-beauty-demo\assets\images\refine-beauty.png"
+                        <img src="assets/images/refine-beauty.png"
                             alt="Interieur van Refine Beauty met roze bloemenwand en neon logo." loading="eager" />
                         <figcaption>Warm, clean en modern - precies zoals de service.</figcaption>
                     </figure>
+
+                        <div class="hero-thumbs" aria-label="Sfeerbeelden">
+                            <img src="assets/images/refine-beauty11.jpeg" alt="Sfeerbeeld salon" loading="lazy" />
+                            <img src="assets/images/refine-beauty12.jpeg" alt="Balie en interieur" loading="lazy" />
+                            <img src="assets/images/refine-beauty14.jpeg" alt="Haar en styling in de salon" loading="lazy" />
+                        </div>
+
                 </div>
             </div>
         </section>
@@ -239,19 +246,49 @@
                     <!-- <p class="muted">Eén sterke foto werkt vaak beter dan een hele galerij. Clean & rustig.</p> -->
                 </div>
 
-                <div class="gallery">
-                    <div class="gallery-main">
-                        <img src="C:\Users\jason\Desktop\WebDev\refine-beauty-demo\assets\images\refine-beauty2.png"
-                            alt="Sfeerbeeld Refine Beauty." loading="lazy" />
-                    </div>
-                    <div class="gallery-text">
-                        <h3>Professioneel & uitnodigend</h3>
-                        <p class="muted">
-                            Deze demo-site is gemaakt om snel vertrouwen te wekken en direct naar contact te sturen.
-                            Precies handig om te delen na een belletje.
-                        </p>
-                        <a class="btn btn-primary" href="#contact">Afspraak via WhatsApp</a>
-                    </div>
+                
+<div class="media-split">
+  <div class="mosaic" aria-label="Foto's uit de salon">
+    <figure class="mosaic-item i1">
+      <img src="assets/images/refine-beauty2.png" alt="Salon interieur met stylingstoelen." loading="lazy" />
+    </figure>
+    <figure class="mosaic-item i2">
+      <img src="assets/images/refine-beauty.png" alt="Bloemenwand met Refine Beauty neon logo." loading="lazy" />
+    </figure>
+    <figure class="mosaic-item i3">
+      <img src="assets/images/refine-beauty4.jpeg" alt="Stylingmoment in de salon." loading="lazy" />
+    </figure>
+    <figure class="mosaic-item i4">
+      <img src="assets/images/refine-beauty6.jpeg" alt="Werkfoto: behandeling in de stoel." loading="lazy" />
+    </figure>
+    <figure class="mosaic-item i5">
+      <img src="assets/images/refine-beauty13.jpeg" alt="Portret en sfeerbeeld in de salon." loading="lazy" />
+    </figure>
+  </div>
+
+  <div class="media-text">
+    <h3>Warm, clean & modern</h3>
+    <p class="muted">
+      Een rustige salon met aandacht voor detail. Hieronder zie je een paar sfeerbeelden en korte video's.
+    </p>
+
+    <div class="video-row" aria-label="Video's uit de salon">
+      <div class="video-card">
+        <video controls playsinline preload="metadata" poster="assets/images/refine-beauty11.jpeg">
+          <source src="assets/videos/video1.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="video-card">
+        <video controls playsinline preload="metadata" poster="assets/images/refine-beauty12.jpeg">
+          <source src="assets/videos/video2.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+
+    <a class="btn btn-primary" href="#contact">Afspraak via WhatsApp</a>
+  </div>
+</div>
+</div>
                 </div>
             </div>
         </section>
